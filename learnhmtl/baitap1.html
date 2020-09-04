@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Aniii
+    </title>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://techmaster.vn/resources/image/favicon.ico">
+</head>
+
+<body>
+    <h2>Cảm nhận sau khi chuyển từ native Android sang Flutter</h2>
+    <p>07 tháng 08, 2020
+        <br />
+        Xin chào mọi người, mình là một Android developer và cuối năm 2019 đầu năm 2020 mình có mày mò học Flutter. Sau
+        khoảng thời gian kha khá code Flutter, mình có một chút trải nghiệm và kinh nghiệm rút ra được trong quá trình
+        lập trình với ngôn ngữ này.
+    </p>
+    <h3>Sự khác biệt giữa native thuần và Flutter</h3>
+    <p>
+        Khác biệt lớn nhất đó tất nhiên là Flutter là SDK multi platform có thể build được cả iOS và android. Flutter
+        không chỉ giải quyết bài toán Fast Development giống như react native mà còn đảm bảo được Native Performance
+        giống như native thuần. Thực sự thì mình ấn tượng ở khoản Fast Development của nó.
+        <br />
+        Flutter sử dụng DART. Một ngôn ngữ lập trình hướng đối tượng do Google phát triển. DART là một static type
+        language nên nó là AOT (Ahead of Time), compile xong hết rồi mới chạy. Trong khi đó nó cũng là JIT (Just in
+        Time) giống như các dynamic type language. Khi dev thì nó sử dụng JIT để hỗ trợ Hot Load và build release thì
+        dùng AOT để tối ưu hiệu năng như một native code bình thường. Việc bạn vừa code vừa có thể xem màn hình app thay
+        đổi theo thật là một trải nghiệm vô cùng thú vị.
+        <br />
+        Tuy Dart là một ngôn ngữ mới tuy nhiên nó lại rất dễ học vì trước đó mình đã có kinh nghiệm code với javascript.
+        <br />
+        Cũng giống như android Google cũng cung cấp đầy đủ document cho Flutter. Đi từ cài đặt, hướng dẫn viết app cơ
+        bản cho tới CI/CD, debug, test và profiling. Bộ profiling của Flutter cũng cực kì hay dùng để đo đạc các chỉ số
+        về performance khá chi tiết.
+    </p>
+    <img src="/media/static/bqlv4cn0k7qsf98mcffg/bsmc54451co41h2qcim0" alt="Ảnh" title="Ảnh" width="1902" height="799">
+    <p>
+        Với 98.1k star chứng tỏ cộng đồng đang rất quan tâm đến framework này
+        <br />
+        Flutter có 1 bộ thư viện các widget vô cùng phong phú, nếu bạn biết kết hợp các widget hiệu quả thì công việc
+        code app của bạn vô cùng đơn giản.
+        <br />
+        Sau một khoảng thời gian làm việc với Flutter thì thực sự mình không còn thích thú với native thuần nữa.
+        <br />
+        Làm việc với XML trong android native tôi cảm thấy thực sự rất trật vật.
+    </p>
+    <h3>Tăng tốc độ phát triển với các phím tắt cực hữu dụng</h3>
+    <h4>Quick Fix</h4>
+    <p>
+        Hãy sử dụng tổ hợp phím tắt ( Command . ) với macOS hoặc ( ctr . ) với window để fix nhanh 1 vấn đề
+    </p>
+    <img src="https://images.viblo.asia/1e9099c2-006e-40f2-a9f3-8e669c88a121.png" alt="Ảnh" title="Ảnh" width="1000"
+        height="500">
+    <p>
+        Việc báo thiếu import thư viện khi bạn sử dụng một widget mới là việc thường xuyên xảy ra, khi đó hãy sử dụng tổ
+        hợp phím trên để nhanh chóng import thư viện thiếu.
+    </p>
+    <h4>Shotcut refactor code</h4>
+    <p>
+        Việc wrap 1 widget thường xuyên phải làm trong Flutter, để nhanh chóng cho việc này thay vì phải ấn chuột phải
+        chọn Refactor thì hãy dùng tổ hợp phím (control + shift + R )
+    </p>
+    <img src="https://images.viblo.asia/eeba8964-60f3-4226-b341-ed42e61ead40.png" alt="Ảnh" title="Ảnh" width="1000"
+        height="500">
+    <p>
+        Đôi khi mình cũng dùng tổ hợp phím này cho việc Extract widget thành các widget nhỏ hơn tiện cho việc reuse code
+        và làm code dễ đọc hơn.
+    </p>
+    <h4>Awesome Flutter Snippets</h4>
+    <p>
+        Đây là extension mình khuyên các bạn nên install. Nó giúp tăng tốc độ code đáng kể khi bạn chỉ cần gõ shotcut là
+        có thể gọi ra 1 widget với đầy đủ property requied
+    </p>
+    <img src="https://images.viblo.asia/38fd50f0-68ee-41a0-84e7-93e720b7ea81.png" alt="Ảnh" title="Ảnh" width="1000"
+        height="500">
+    <h4>Todo Tree</h4>
+    <p>
+        Đây là extension giúp bạn đánh dấu những việc bạn cần làm trong tương lai trong code của mình, đôi khi nó cũng
+        để đánh dấu những điểm quan trọng mà khi bạn đọc lại code sẽ không mất nhiều thời gian tìm kiếm
+    </p>
+    <img src="https://images.viblo.asia/fe455313-130c-4920-96e1-74802ce177ef.png" alt="Ảnh" title="Ảnh" width="1000"
+        height="500">
+    <h4>Tổng kết</h4>
+    <p>
+        Trên đây là toàn bộ cảm nhận của mình sau một khoảng thời gian không quá dài tiếp xúc với Flutter. Vì là cảm
+        nhận của mình nên còn nhiều thứ lan man mong các bạn thông cảm. Về cơ bản thì mình thấy Flutter tuy là một
+        framework mới nhưng nó có nhiều ưu điểm so với các framework khác trong việc lập trình app mobile. Mình tin rằng
+        trong thời gian tới thì Flutter sẽ trở thành framework đựoc nhiều người lựa chọn trong việc lập trình ứng dụng.
+    </p>
+    <pre>
+        Dù là ReactNative hay Flutter bạn đều có thể học tại Techmaster
+
+        Với khóa ReactNative dài 4.5 tháng bạn đã có thể làm chủ công nghệ này: <a href="https://techmaster.vn/lo-trinh/mobile" target="_blank">ReactNative
+        </a> 
+        Hot trend framework Flutter bạn cũng có thể đăng ky học tại đây: <a href="https://techmaster.vn/khoa-hoc/j86/lap-trinh-di-dong-flutter-cho-ios-android" target="_blank">Lập trình đa nên tảng Flutter</a> 
+    </pre>
+    <a href="https://techmaster.vn/posts/35971/cam-nhan-sau-khi-chuyen-tu-native-android-sang-flutter" target="_blank">Bài viêt gốc</a>
+</body>
+</html>
