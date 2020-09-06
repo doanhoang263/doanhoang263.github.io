@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-size: 1rem;
+}
+.view {
+	width: 100%;
+}
+.ver {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	color: white;
+	font-size: 20px;
+}
+.ver.fourth
+{
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+.red_block
+{
+    height: 400px;
+    background-color: red;
+    text-align: center;
+    line-height: 400px;
+}
+.ver.first .red_block , .ver.second .red_block
+{
+    width: 60%;
+}
+.ver.third .red_block
+{
+    flex: 1 1 auto;
+}
+.ver.fourth .red_block
+{
+    width: 25%;
+}
+.green_block
+{
+    text-align: center;
+    background-color: green;
+}
+.blue_block
+{
+    text-align: center;
+    background-color: blue;
+}
+.ver.first .green_block, .ver.ver.first .blue_block
+{
+    width: 40%;
+    height: 200px;
+    line-height: 200px;
+}
+.ver.second .green_block, .ver.second .blue_block
+{
+    width: 38.8%;
+    height: 200px;
+    line-height: 200px;
+    margin-left: 15px;
+}
+.ver.first .blue_block, .ver.second .blue_block
+{
+    position: absolute;
+    top: 200px;
+    left: 60%;
+}
+.ver.third .green_block, .ver.third .blue_block, .ver.fourth .green_block, .ver.fourth .blue_block
+{
+    height: 400px;
+    line-height: 400px;
+}
+.ver.third .green_block, .ver.third .blue_block
+{
+    flex: 1 1 auto;    
+}
+.ver.fourth .green_block, .ver.fourth .blue_block
+{
+    width: 25%;
+    margin-left: 15px;
+}
+p 
+{
+	text-align: center;
+	font-size: 1.1rem;
+	margin: 3vw 0 3vw 0;
+	font-style: italic;
+}
