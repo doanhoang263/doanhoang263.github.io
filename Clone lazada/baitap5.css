@@ -1,0 +1,172 @@
+*
+{
+    font-size: 18px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fix
+{
+    width: 160px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: whitesmoke;
+    line-height: 40px;
+    text-align: center;
+}
+.start-menu
+{
+    width: 100%;
+    height: 30px;
+    background-color: #f5f5f5;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+    padding-left: 25%;
+}
+.start-menu ul
+{
+    list-style-type: none;
+    display: flex;
+}
+.start-menu ul li{
+    flex: 1 1 auto;
+
+}
+.start-menu ul li:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.background
+{
+    width: 100%;
+}
+.important
+{
+    position: absolute;
+    top: 145px;
+    left: 1.5vw;
+    width: 18vw;
+    height: 33.5vw;
+    background-color: white;
+    padding: 1vw 0.5vw 0 1vw;
+}
+.important .lop_1
+{
+    height: 100%;
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+    position: relative;
+}
+.important .lop_1 .product_name
+{
+    flex: 0 0 8.33%;
+    width: 100%;
+    line-height: 2.5vw;   
+}
+.important .lop_1 .product_name :hover
+{
+    background-color: #eff0f5;
+}
+.important .lop_1 .product_name:hover .symbol_1 .fas.fa-angle-right, .important .lop_1 .product_name .lop_2 .type:hover .symbol_2 .fas.fa-angle-right
+{
+    visibility: visible;
+}
+.important .lop_1 .product_name:hover .name_type, .important .lop_1 .product_name:hover .symbol_1 .fas .fa-angle-right, .important .lop_1 .product_name .lop_2 .type:hover .type_name, .important .lop_1 .product_name .lop_2 .type:hover .symbol_2 .fas .fa-angle-right
+{
+    color: red;
+    cursor: pointer;
+}
+.important .lop_1 .product_name:hover .lop_2, .important .lop_1 .product_name .lop_2 .type:hover .lop_3
+{
+    visibility: visible;
+}
+.important .lop_1 .product_name .name_type
+{
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 1.25vw;
+}
+.important .lop_1 .product_name .symbol_1, .important .lop_1 .product_name .lop_2 .type .symbol_2
+{
+    float: right;
+    height: 100%;
+}
+.symbol_1 .fas.fa-angle-right, .symbol_2 .fas.fa-angle-right
+{
+    -webkit-text-stroke: 0.1vw white;
+    font-size: 1.4vw;
+    color: red;
+    visibility: hidden;
+}
+.important .lop_1 .product_name .lop_2, .important .lop_1 .product_name .lop_2 .type .lop_3
+{
+    position: absolute;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    visibility: hidden;
+    box-shadow: -0.05vw 0 3px rgba(0, 0, 0, 0.2);
+}
+.important .lop_1 .product_name .lop_2 .type .type_name, .important .lop_1 .product_name .lop_2 .type .lop_3 .branch
+{
+    flex: 0 0 8.33%;
+    width: 100%;
+    line-height: 2.5vw;
+    padding-left: 2vw;
+    background-clip: border-box;
+}
+.important .lop_1 .product_name .lop_2 .type:hover
+{
+    cursor: pointer;
+    background-color: #eff0f5;
+}
+.important .lop_1 .product_name .lop_2 .type:hover .type_name a
+{
+    color: red;
+}
+.important .lop_1 .product_name .lop_2 .type .type_name a
+{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 1.25vw;
+}
+.important .lop_1 .product_name .lop_2 .type .lop_3 .branch
+{
+    flex: 0 0 8.33%;
+    width: 100%;
+    line-height: 2.5vw;
+    padding-left: 2vw;
+    background-clip: border-box;
+}
+.important .lop_1 .product_name .lop_2 .type .lop_3 .branch:hover
+{
+    cursor: pointer;
+    background-color: #eff0f5;
+}
+.important .lop_1 .product_name .lop_2 .type .lop_3 .branch:hover .kind a
+{
+    color: red;
+}
+.important .lop_1 .product_name .lop_2 .type .lop_3 .branch .kind a
+{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 1.25vw;
+}
