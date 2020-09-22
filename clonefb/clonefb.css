@@ -66,6 +66,7 @@ h2
 }
 .form
 {
+    display: flex;
     align-items: center;
     background-color: #fff;
     border: none;
@@ -137,7 +138,8 @@ button
 .sign-in
 {
     width: 190px;
-    max-height: 80px;
+    max-height: 20px;
+    line-height: 1px;
     padding: 25px 32px;
     background-color: #42b72a;
     border: none;
@@ -149,8 +151,7 @@ button
     text-decoration: none;
     color: #fff;
     background-color: #42b72a;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 15px;
     border: none;
     border-radius: 6px;
 }
